@@ -1,0 +1,50 @@
+body {
+    background-color: #fad7df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 20px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.blink {
+    animation: blink 1.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
